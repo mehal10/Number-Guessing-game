@@ -25,7 +25,7 @@ def number_guessing_game():
                 print(f"Congratulations! You've guessed the correct number {number_to_guess} in {attempts} attempts.")
                 break  # Exit the loop when the user guesses correctly
         except ValueError:
-            print("Invalid input! Please enter a number.")
+            print("Invalid input! Please enter a valid number.")
 
 # Call the function to start the game
 number_guessing_game()
